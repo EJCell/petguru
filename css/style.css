@@ -113,7 +113,7 @@ nav .material-symbols-outlined{
 		display: block;
 	}	
 	.nav-links{
-		position: absolute;
+		position: fixed;
 		background: #40A8DF;
 		height: 100vh;
 		width: 200px;
@@ -401,6 +401,138 @@ h3{
 .about-col p{
     padding: 15px 0 25px;
 }
+
+/*Blog Content*/
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.blog-left{
+    flex-basis: 65%;
+}
+
+.blog-left img{
+    width: 100%;
+}
+
+.blog-left h2{
+    color: #151515;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left h3{
+    color: #151515;
+    font-weight: 600;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.blog-left p{
+    color: #151515;
+    padding: 0;
+}
+
+.blog-right{
+    flex-basis: 32%;
+}
+
+.blog-right h3{
+    background: #40A8DF;
+    color: whitesmoke;
+    padding: 7px 0;
+    font-size: 16px;
+}
+
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+@media(max-width: 700px){
+    .sub-header h1{
+        font-size: 24px;
+    }
+}
+
+/*Contact Us*/
+
+.map{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.map iframe{
+    width: 100%;
+}
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .material-symbols-outlined{
+    font-size: 28px;
+    color: #40A8DF;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p{
+    padding: 0;
+    
+}
+
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #151515;
+    font-weight: 400;
+}
+
+.blue-btn{
+    border: 1px solid #40A8DF;
+    background: transparent;
+    color: #40A8DF;
+}
+
+.blue-btn:hover{
+    color: whitesmoke;
+}
+
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
 
 
 
