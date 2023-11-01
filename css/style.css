@@ -4,7 +4,7 @@
 	font-family: 'Poppins', sans-serif;
 }
 .header{
-	min-height: 100vh;
+	min-height: 80vh;
 	width: 100%;
 	background-image: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.4)),
     url("../img/hpbanner.png");
@@ -21,7 +21,7 @@ nav{
 }
 
 nav img{
-	width: 150px;
+	width: 180px;
 }
 
 .nav-links{
@@ -164,7 +164,7 @@ p{
 }
 
 .services-col{
-    flex-basis: 31%;
+    flex-basis: 24%;
     background: #D3F0FF;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -352,6 +352,7 @@ h3{
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background: #D3F0FF;
 }
 
 .footer h4{
@@ -359,6 +360,54 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
+
+/*About Us Page*/
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.8), rgba(4,9,30,0.4)),
+    url("../img/aboutbanner.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.sub-header h1{
+    margin-top: 100px;
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-col h1{
+    padding-top: 0;
+}
+
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+
+
+
+
+
+
 
 
 
